@@ -95,7 +95,7 @@ Trained and evaluated on the **ICDAR CVL Handwriting Database** (~1,000 writers)
                  +-------------------+-------------------+
                  |                                       |
                  v                                       v
-      [ Match / No-Match Verdict ]              [ Forensic Analytics ]
+      [ Match / No-Match Verdict ]                 [ Analytics ]
     (Confidence Percentage & Scores)          (ROC-AUC, Confusion Matrix)
 
 ```
