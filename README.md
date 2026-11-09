@@ -85,7 +85,9 @@ Handwriting-Recognition-System/
 ├── README.md
 ├── dataset/
 ├── outputs/
-└── images/
+├── requirements.txt
+├── demo_samples/
+└── docs/
 ```
 
 ---
