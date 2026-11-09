@@ -37,7 +37,6 @@ Trained and evaluated on the **ICDAR CVL Handwriting Database** (~1,000 writers)
 ---
 
 ## 🧠 System Architecture & Methodology
-
 ```text
                +-------------------------------------------+
                |  Input Handwriting / Document Image Pair  |
@@ -66,5 +65,90 @@ Trained and evaluated on the **ICDAR CVL Handwriting Database** (~1,000 writers)
                  v                                       v
       [ Match / No-Match Verdict ]              [ Forensic Analytics ]
     (Confidence Percentage & Scores)          (ROC-AUC, Confusion Matrix)
+
+```
+
+---
+```text
+## 📂 Project Structure
+
+
+Handwriting-Recognition-System/
+│
+├── app.py
+├── preprocessing.py
+├── model.py
+├── fusion.py
+├── features.py
+├── utils.py
+├── requirements.txt
+├── README.md
+├── dataset/
+├── outputs/
+└── images/
+```
+
+---
+## 📊 Dataset Used
+
+The project was trained and evaluated using the **CVL Handwriting Dataset**, which contains handwriting samples from approximately 1000 writers.
+
+Dataset Reference:
+
+F. Kleber, S. Fiel, M. Diem, and R. Sablatnig,
+“CVL-Database: An Off-line Database for Writer Retrieval, Writer Identification and Word Spotting,” ICDAR, 2013.
+
+---
+
+### How to Run the Project
+
+### Step 1: Clone Repository
+
+```bash
+git clone https://github.com/yourusername/handwriting-recognition-system.git
+```
+
+### Step 2: Open Project Folder
+
+```bash
+cd handwriting-recognition-system
+```
+
+### Step 3: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Run Streamlit Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📷 Output
+
+The system displays:
+
+* Similarity Score
+* Match / No Match Result
+* CNN Similarity
+* Fusion Probability
+* ROC Curve
+* Confusion Matrix
+
+---
+
+## 📚 References
+
+1. E. Rublee et al., “ORB: An efficient alternative to SIFT or SURF,” ICCV, 2011.
+2. F. Kleber et al., “CVL-Database,” ICDAR, 2013.
+3. Y. LeCun et al., “Deep Learning,” Nature, 2015.
+4. J. Bromley et al., “Signature verification using a Siamese neural network,” 1994.
+5. OpenCV Documentation – [https://opencv.org](https://opencv.org)
+6. Streamlit Documentation – [https://streamlit.io](https://streamlit.io)
+
 ---
 
