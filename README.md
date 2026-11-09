@@ -24,6 +24,38 @@ Manual verification of offline signatures and handwriting is slow, subjective, a
 
 ---
 
+## 🛠 Technologies Used
+
+* Python
+* TensorFlow / Keras
+* OpenCV
+* Scikit-learn
+* NumPy
+* Matplotlib
+* Streamlit
+
+---
+
+## 🧠 Algorithms Used
+
+### 1. Siamese CNN
+
+Used for learning visual similarity between handwriting images.
+
+### 2. Feature Fusion
+
+Combines CNN similarity scores with handcrafted features.
+
+### 3. ORB Feature Matching
+
+Used for keypoint extraction and local feature comparison.
+
+### 4. Random Forest Classifier
+
+Used for final classification of handwriting pairs.
+
+---
+
 ## 📊 Performance Benchmarks
 
 Trained and evaluated on the **ICDAR CVL Handwriting Database** (~1,000 writers):
