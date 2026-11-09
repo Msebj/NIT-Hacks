@@ -37,7 +37,9 @@ NIT-Hacks/
 ├── check_writer_contents.py   # Dataset validation utilities
 ├── requirements.txt           # Environment dependencies
 └── demo_samples/              # Sample handwriting image pairs for instant testing
-## ▶️ How to Run the Project
+---
+
+## How to Run the Project
 
 ### Step 1: Clone Repository
 
